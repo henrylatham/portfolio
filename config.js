@@ -2,16 +2,20 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Henry Latham',
+  subtitle: 'Product Strategist & Author of the soon-to-be-released How To Build Great Products',
+  copyright: '© HL 2019',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 3,
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Articles',
+      label: 'Home',
       path: '/'
+    },
+    {
+      label: 'Blog',
+      path: '/blog'
     },
     {
       label: 'About me',
@@ -23,9 +27,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Henry Latham',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Product Strategist & Author of the soon-to-be-released How To Build Great Products',
     contacts: {
       email: '#',
       telegram: '#',

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>≤</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-16.3%" y="-11.6%" width="132.6%" height="132.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0629245924 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-1130.000000, -3991.000000)" fill="#16008B">
+            <g id="arrow_right" filter="url(#filter-1)" transform="translate(1143.500000, 3999.500000) scale(-1, 1) translate(-1143.500000, -3999.500000) translate(1122.000000, 3978.000000)">
+                <polygon id="≤" points="31.1555556 24.1945493 16.5859792 24.1945493 22.2546058 30.0310273 21.0967586 31.2888889 13.3777778 23.2888889 21.0967586 15.2888889 22.2546058 16.5467505 16.5859792 22.3832285 31.1555556 22.3832285"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

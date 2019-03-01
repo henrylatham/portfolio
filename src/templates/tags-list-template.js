@@ -4,18 +4,39 @@ import kebabCase from 'lodash/kebabCase';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
+import Feed from '../components/Feed';
+import Pagination from '../components/Pagination';
 
-const TagsListTemplate = ({ data }) => {
+const TagsListTemplate = ({ data, pageContext }) => {
   const {
-    title,
-    subtitle
+    title: siteTitle,
+    subtitle: siteSubtitle
   } = data.site.siteMetadata;
-  const { group } = data.allMarkdownRemark;
+
+  const { group, edges } = data.allMarkdownRemark;
+
+  const {
+    currentPage,
+    hasNextPage,
+    hasPrevPage,
+    prevPagePath,
+    nextPagePath
+  } = pageContext;
+
+  const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+
 
   return (
-    <Layout title={`Tags - ${title}`} description={subtitle}>
+    <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title="Tags">
+      <Page title="Blog">
+        <Feed edges={edges} />
+        <Pagination
+          prevPagePath={prevPagePath}
+          nextPagePath={nextPagePath}
+          hasPrevPage={hasPrevPage}
+          hasNextPage={hasNextPage}
+        />
         <ul>
           {group.map((tag) => (
             <li key={tag.fieldValue}>
@@ -40,10 +61,25 @@ export const query = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount
+      }
+      edges {
+        node {
+          fields {
+            slug
+            categorySlug
+          }
+          frontmatter {
+            title
+            date
+            category
+            description
+          }
+        }
       }
     }
   }

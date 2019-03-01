@@ -10,7 +10,8 @@ import Page from '../components/Page';
 const IndexTemplate = ({ data, pageContext }) => {
   const {
     title: siteTitle,
-    subtitle: siteSubtitle
+    subtitle: siteSubtitle,
+    author
   } = data.site.siteMetadata;
 
   const {
@@ -37,7 +38,7 @@ const IndexTemplate = ({ data, pageContext }) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
-        <Welcome />
+        <Welcome author={author}/>
       </Page>
     </Layout>
   );
@@ -49,6 +50,10 @@ export const query = graphql`
       siteMetadata {
         title
         subtitle
+        author {
+          name
+          portrait
+        }
       }
     }
     allMarkdownRemark(

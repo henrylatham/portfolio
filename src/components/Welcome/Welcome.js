@@ -1,9 +1,14 @@
 import React from 'react';
+import { withPrefix } from 'gatsby';
 import styles from './Welcome.module.scss';
 
-const Welcome = () => (
+const Welcome = ({ author }) => (
   <div className={styles['welcome']}>
-    <h1>Test</h1>
+    <img
+      src={withPrefix(author.portrait)}
+      className={styles['author__portrait']}
+      alt={author.name}
+    />
   </div>
 );
 

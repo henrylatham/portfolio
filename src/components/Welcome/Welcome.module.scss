@@ -16,4 +16,15 @@
   margin-left: .2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  .author {
+    &__portrait {
+      width: 65%;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 0;
+      border-radius: 0%;
+      background-clip: padding-box
+    }
+  }
 }

@@ -29,6 +29,7 @@ module.exports = {
   author: {
     name: 'Henry Latham',
     photo: '/photo.jpg',
+    portrait: '/portrait.jpg',
     bio: 'Product Strategist & Author of the soon-to-be-released How To Build Great Products',
     contacts: {
       email: '#',
@@ -38,5 +39,5 @@ module.exports = {
       rss: '#',
       vkontakte: '#'
     }
-  }
+  },
 };

@@ -1,6 +1,8 @@
 import React from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 
+import styles from './MailForm.module.scss';
+
 export default class IndexPage extends React.Component {
   state = {
     name: null,
@@ -31,15 +33,18 @@ export default class IndexPage extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Hi people</h1>
-        <p>Submit the form below and check your browser console!</p>
+
+      <div className={styles['mailForm']}>
+      <div className={styles['mailForm__inner']}>
+        <h1 className={styles['mailForm__title']}>Free E-Book</h1>
+        <p className={styles['mailForm__body']}>Subscribe for weekly emails & receive my free e-book:</p>
         <div>
-          <form onSubmit={this._handleSubmit}>
-            <input type="text" onChange={this._handleChange} placeholder="name" name="name" />
-            <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
-            <input type="submit" />
+          <form onSubmit={this._handleSubmit} className={styles['mailForm__form']}>
+            <input type="text" onChange={this._handleChange} placeholder="Name" name="name" className={styles['mailForm__form__input']} />
+            <input type="email" onChange={this._handleChange} placeholder="Email" name="email" className={styles['mailForm__form__input']} />
+            <input type="submit" className={styles['mailForm__form__submit']} />
           </form>
+        </div>
         </div>
       </div>
     );

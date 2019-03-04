@@ -5,6 +5,8 @@ import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
+
+import MailForm from '../MailForm';
 import styles from './Post.module.scss';
 
 const Post = ({ post }) => {
@@ -23,6 +25,7 @@ const Post = ({ post }) => {
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
+        <MailForm />
       </div>
 
       <div className={styles['post__footer']}>

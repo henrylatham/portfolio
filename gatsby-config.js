@@ -22,11 +22,10 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: 'gatsby-plugin-mailchimp',
       options: {
-        path: `${__dirname}/static/media`,
-        name: 'media'
-      }
+        endpoint: 'https://wordpress.us17.list-manage.com/subscribe/post?u=89c3dca34c8e6120e84df567d&amp;id=0fc2b6b2a5', // see instructions section below
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',

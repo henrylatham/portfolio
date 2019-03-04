@@ -6,6 +6,7 @@ import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import Feed from '../components/Feed';
 import Pagination from '../components/Pagination';
+import MailForm from '../components/MailForm';
 
 const TagsListTemplate = ({ data, pageContext }) => {
   const {
@@ -37,6 +38,7 @@ const TagsListTemplate = ({ data, pageContext }) => {
           hasPrevPage={hasPrevPage}
           hasNextPage={hasNextPage}
         />
+        <MailForm />
         <ul>
           {group.map((tag) => (
             <li key={tag.fieldValue}>

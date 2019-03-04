@@ -1,4 +1,4 @@
-/** 
+/**
  * Generic
  */
 html {
@@ -122,6 +122,7 @@ ul {
 p {
   @include line-height(1);
   @include margin-bottom(1);
+  color: $typographic-body-font-color;
 }
 
 blockquote {

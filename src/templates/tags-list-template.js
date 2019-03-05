@@ -7,6 +7,7 @@ import Page from '../components/Page';
 import Feed from '../components/Feed';
 import Pagination from '../components/Pagination';
 import MailForm from '../components/MailForm';
+// import TagsList from '../components/TagsList';
 
 const TagsListTemplate = ({ data, pageContext }) => {
   const {

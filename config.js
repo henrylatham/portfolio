@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   title: 'Henry Latham',
-  subtitle: 'Product Strategist & Author of the soon-to-be-released How To Build Great Products',
+  subtitle: 'Product Strategist & Author of How To Build Great Products (available Summer 2019)',
   copyright: '© HL 2019',
   disqusShortname: '',
   postsPerPage: 3,
@@ -18,26 +18,20 @@ module.exports = {
       path: '/blog'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
     name: 'Henry Latham',
     photo: '/photo.jpg',
     portrait: '/portrait.jpg',
-    bio: 'Product Strategist & Author of the soon-to-be-released How To Build Great Products',
+    bio: 'Product Strategist & Author of How To Build Great Products (available Summer 2019)',
     contacts: {
       email: '#',
-      telegram: '#',
       twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      github: 'https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts',
+      amazon: 'https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts',
     }
   },
 };

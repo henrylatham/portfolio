@@ -12,11 +12,11 @@ export const PureAuthor = ({ data }) => {
         {author.bio}
         <a
           className={styles['author__bio-twitter']}
-          href={getContactHref('twitter', author.contacts.twitter)}
+          href="https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
+          Get 30% off the new book
         </a>
       </p>
     </div>
@@ -32,8 +32,8 @@ export const Author = (props) => (
             author {
               name
               bio
-              contacts {       
-                twitter
+              contacts {
+                github
               }
             }
           }

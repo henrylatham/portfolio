@@ -1,6 +1,6 @@
 ---
 title: A Productive Life is a Happy Life.
-date: "2016-12-10T22:40:32.169Z"
+date: "2016-10-12T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/a-productive-life-is-a-happy-life/"

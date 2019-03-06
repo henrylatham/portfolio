@@ -1,6 +1,6 @@
 ---
 title: Writing the Middle
-date: "2018-08-19T22:40:32.169Z"
+date: "2018-01-19T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/writing-the-middle/"

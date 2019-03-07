@@ -7,7 +7,7 @@ module.exports = {
   copyright: '© HL 2019',
   disqusShortname: '',
   postsPerPage: 3,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-119527319-1',
   menu: [
     {
       label: 'Home',

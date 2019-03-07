@@ -2,7 +2,7 @@
 title: How to Save UI Designers and Developers 50% of Their Time
 date: "2018-06-23T22:40:32.169Z"
 template: "post"
-draft: false
+draft: true
 slug: "/posts/how-to-save-ui-designers-and-developers-up-to-50%-of-their-time"
 category: "Design"
 tags:

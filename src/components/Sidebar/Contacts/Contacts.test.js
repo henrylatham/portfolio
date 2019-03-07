@@ -6,7 +6,7 @@ describe('Contacts', () => {
   const props = {
     contacts: {
       email: '#',
-      twitter: '#',
+      medium: '#',
       vkontakte: '#',
       github: '#',
       rss: '#',

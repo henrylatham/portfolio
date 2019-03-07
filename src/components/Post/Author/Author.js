@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
-import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 
 export const PureAuthor = ({ data }) => {
@@ -11,7 +10,7 @@ export const PureAuthor = ({ data }) => {
       <p className={styles['author__bio']}>
         {author.bio}
         <a
-          className={styles['author__bio-twitter']}
+          className={styles['author__bio-book']}
           href="https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts"
           rel="noopener noreferrer"
           target="_blank"
@@ -32,9 +31,6 @@ export const Author = (props) => (
             author {
               name
               bio
-              contacts {
-                github
-              }
             }
           }
         }

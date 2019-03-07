@@ -1,5 +1,5 @@
 ---
-title: Turning travel into a quest: How to find joy & wisdom on the road
+title: Turning travel into a quest & on finding joy & wisdom on the road
 date: "2017-11-28T22:40:32.169Z"
 template: "post"
 draft: false

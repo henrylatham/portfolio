@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql, Link, StaticQuery } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 
-const TagsList = ({ data }) => {
+export const PureTagsList = ({ data }) => {
   const { group } = data.allMarkdownRemark;
 
 
@@ -25,20 +25,24 @@ const TagsList = ({ data }) => {
   );
 };
 
-
-export const query = graphql`
-  query TagsListFullQuery {
-    allMarkdownRemark(
-      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
-      group(field: frontmatter___tags) {
-        fieldValue
-        totalCount
+export const TagsList = (props) => (
+  <StaticQuery
+    query={graphql`
+      query TagsListFullQuery {
+        allMarkdownRemark(
+          filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+          sort: { order: DESC, fields: [frontmatter___date] }
+        ) {
+          group(field: frontmatter___tags) {
+            fieldValue
+            totalCount
+          }
+        }
       }
-    }
-    }
-`;
+    `}
+    render={(data) => <PureTagsList {...props} data={data}/>}
+  />
+);
 
 
 export default TagsList;

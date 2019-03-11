@@ -14,7 +14,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
   }
 
   &__title {
@@ -88,7 +89,7 @@
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 80%;
+    width: 30%;
     margin: 0 auto;
 
     background-image: url('../../../static/book-display.png');

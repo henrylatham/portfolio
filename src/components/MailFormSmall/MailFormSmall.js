@@ -1,7 +1,7 @@
 import React from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 
-import styles from './MailForm.module.scss';
+import styles from './MailFormSmall.module.scss';
 
 export default class IndexPage extends React.Component {
   state = {

@@ -1,0 +1,20 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.bookoffer {
+  @include padding(.25, 1);
+  background-color: $color-primary;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  &:hover > &__text {
+    text-decoration: underline;
+  }
+
+  &__text {
+    color: $color-white;
+  }
+}

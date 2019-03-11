@@ -2,8 +2,8 @@
 
 module.exports = {
   url: 'https://hlatham.com',
-  title: 'Henry Latham',
-  subtitle: 'Product Strategist, Head of Product at Scribe & Author of How To Build Great Products (available Summer 2019)',
+  title: 'Henry Latham | Product Strategist',
+  subtitle: 'Thoughts on product strategy, design & living well in the startup world.',
   copyright: '© HL 2019',
   disqusShortname: '',
   postsPerPage: 3,
@@ -26,7 +26,7 @@ module.exports = {
     name: 'Henry Latham',
     photo: '/photo.jpg',
     portrait: '/portrait.jpg',
-    bio: 'Product Strategist, Head of Product at Scribe & Author of How To Build Great Products (available Summer 2019)',
+    bio: 'Product Strategist, Author, Head of Product at Scribe. `Building for Product Success` available Summer 2019',
     contacts: {
       email: 'henry@scribeapp.co?Subject=Website%20Enquiry',
       medium: '@lathamhenry',

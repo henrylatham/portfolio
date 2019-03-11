@@ -26,7 +26,7 @@ module.exports = {
     name: 'Henry Latham',
     photo: '/photo.jpg',
     portrait: '/portrait.jpg',
-    bio: 'Product Strategist, Author, Head of Product at Scribe. `Building for Product Success` available Summer 2019',
+    bio: 'Product Strategist | Head of Product at Scribe | Author of Building for Product Success, available Summer 2019',
     contacts: {
       email: 'henry@scribeapp.co?Subject=Website%20Enquiry',
       medium: '@lathamhenry',

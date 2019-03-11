@@ -3,7 +3,7 @@ title: Why We Don’t Do User Testing
 date: "2018-11-28T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/questions-constitute-design-process"
+slug: "/posts/why-we-do-not-do-user-testing"
 category: "User Testing"
 tags:
   - "Design"

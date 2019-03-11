@@ -3,7 +3,7 @@ title: How Journaling Changed My Life
 date: "2018-12-26T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/lies-determine-our-lives"
+slug: "/posts/journaling-changed-me"
 category: "Journaling"
 tags:
   - "Journaling"

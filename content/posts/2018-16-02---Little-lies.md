@@ -3,7 +3,7 @@ title: Little lies we tell ourselves
 date: "2018-02-16T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/why-we-do-self-improvement"
+slug: "/posts/little-lies-to-motivate-ourselves"
 category: "Purpose"
 tags:
   - "Be Mindful"

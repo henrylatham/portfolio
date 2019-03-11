@@ -3,7 +3,7 @@ title: Experience is not arbitrary
 date: "2018-06-09T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/what-value-to-create-for-the-world"
+slug: "/posts/experience-is-not-arbitrary"
 category: "Experience"
 tags:
   - "Experience"

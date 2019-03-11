@@ -3,7 +3,7 @@ title: Life is the outcome of your decisions
 date: "2019-03-03T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/when-you-get-life-wrong"
+slug: "/posts/life-is-the-outcome-of-your-decisions"
 category: "Decision-making"
 tags:
   - "Decision-making"

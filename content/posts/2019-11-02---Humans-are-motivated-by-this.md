@@ -3,7 +3,7 @@ title: All Humans Are Motivated By Three Things
 date: "2019-02-11T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/when-motivation-evades-you"
+slug: "/posts/humans-motivated-by-one-thing"
 category: "Psychology"
 tags:
   - "Psychology"

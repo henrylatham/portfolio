@@ -1,6 +1,6 @@
 ---
 title: The Origin of Ideas
-date: "2019-02-29T22:40:32.169Z"
+date: "2019-02-29T20:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/the-origin-of-ideas"

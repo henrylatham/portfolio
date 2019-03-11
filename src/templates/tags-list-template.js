@@ -3,8 +3,8 @@ import { Link, graphql } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
-import Page from '../components/Page';
 import Feed from '../components/Feed';
+import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import MailForm from '../components/MailForm';
 // import TagsList from '../components/TagsList';
@@ -15,8 +15,6 @@ const TagsListTemplate = ({ data, pageContext }) => {
     subtitle: siteSubtitle
   } = data.site.siteMetadata;
 
-  const { group, edges } = data.allMarkdownRemark;
-
   const {
     currentPage,
     hasNextPage,
@@ -25,13 +23,18 @@ const TagsListTemplate = ({ data, pageContext }) => {
     nextPagePath
   } = pageContext;
 
+  const { group, edges } = data.allMarkdownRemark;
+
+//   const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
+
+// const pageTitle = currentPage > 0 ? `All Posts tagged as "${tag}" - Page ${currentPage} - ${siteTitle}` : `All Posts tagged as "${tag}" - ${siteTitle}`;
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title="Blog">
+      <Page title={'Blog'}>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
@@ -63,6 +66,8 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
+      limit: 20,
+      skip: 0,
       filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {

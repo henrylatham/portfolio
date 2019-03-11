@@ -3,7 +3,7 @@ title: Why I Journal
 date: "2018-11-21T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/you-know-what-pisses-me-off"
+slug: "/posts/why-i-decided-to-journal"
 category: "Journaling"
 tags:
   - "Journaling"

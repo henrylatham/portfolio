@@ -35,16 +35,24 @@ export default class IndexPage extends React.Component {
     return (
 
       <div className={styles['mailForm']}>
-      <div className={styles['mailForm__inner']}>
-        <h1 className={styles['mailForm__title']}>Free E-Book</h1>
-        <p className={styles['mailForm__body']}>Subscribe for weekly emails & receive my free e-book:</p>
-        <div>
+        <div className={styles['mailForm__inner_left']}>
+          <h1 className={styles['mailForm__title']}>FREE Secrets to Product Success</h1>
+          <p className={styles['mailForm__body']}>
+            Subscribe to my bitesize, weekly newsletter & get the introduction
+            to my new book, <i>Building for Product Success</i>, for FREE:
+          </p>
           <form onSubmit={this._handleSubmit} className={styles['mailForm__form']}>
             <input type="text" onChange={this._handleChange} placeholder="Name" name="name" className={styles['mailForm__form__input']} />
             <input type="email" onChange={this._handleChange} placeholder="Email" name="email" className={styles['mailForm__form__input']} />
             <input type="submit" className={styles['mailForm__form__submit']} />
           </form>
         </div>
+        <div className={styles['mailForm__inner_right']}>
+          <img
+            src={'../../../book-display.png'}
+            className={styles['author__photo']}
+            alt={'Building for Product Success'}
+          />
         </div>
       </div>
     );

@@ -3,7 +3,7 @@ title: Why We Won’t Take Investment
 date: "2019-02-01T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/should-clients-come-first"
+slug: "/posts/why-we-will-not-take-investment"
 category: "Work Culture"
 tags:
   - "Work Culture"

@@ -3,7 +3,7 @@ title: Waiting For Lightning To Strike
 date: "2019-01-05T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/expectations-vs-gratitude"
+slug: "/posts/myth-of-overnight-success"
 category: "Success"
 tags:
   - "Patience"

@@ -4,11 +4,16 @@
 .mailForm {
   @include margin-bottom(2);
   @include margin-top(2);
+  background-color: $color-background;
+  display: flex;
 
-  &__inner {
-    padding: 25px 20px;
-    background-color: $color-background;
-    text-align: center;
+  &__inner_left {
+    @include padding(2, 0, 2, 2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
   }
 
   &__title {
@@ -29,14 +34,14 @@
   &__form {
 
     &__input {
+      @include margin(0.25, 0, 0.75, 0);
+      @include padding(0.5, 2, 0.5, 0.75);
       caret-color: $color-primary;
 
       background-color: $color-white;
       display: flex;
       flex-direction: column;
-      margin-bottom: 32px;
-      padding: 12px 48px 12px 16px;
-      margin: 24px auto;
+      width: 50%;
 
       border-style: solid;
       border-width: 2px;
@@ -76,15 +81,24 @@
         transform: translateY(-2px);
       }
     }
+  }
 
+  &__inner_right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
   }
 
   @include breakpoint-sm {
-    .page {
+    .mailForm {
       lost-column: 7/12;
 
-      &__inner {
+      &__inner_left {
         padding: 30px 20px;
+        // flex-direction: row;
+      }
+      &__inner-right {
+        flex-direction: row;
       }
 
     }
@@ -92,11 +106,15 @@
   }
 
   @include breakpoint-md {
-    .page {
+    .mailForm {
       lost-column: 2/3;
 
-      &__inner {
+      &__inner_left {
         padding: 40px 35px;
+        // flex-direction: row;
+      }
+      &__inner-right {
+        flex-direction: row;
       }
 
     }

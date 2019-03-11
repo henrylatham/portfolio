@@ -32,6 +32,8 @@ module.exports = {
       medium: '@lathamhenry',
       github: 'henrylatham',
       // amazon: 'https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts',
-    }
+    },
+    book: '/photo.jpg',
+    bookName: 'Testy test',
   },
 };

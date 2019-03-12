@@ -2,7 +2,7 @@
 title: The Key to Product Success & Why Your Startup is Failing
 date: "2019-03-12T22:40:32.169Z"
 template: "post"
-draft: false
+draft: true
 slug: "/posts/the-key-to-startup-success"
 category: "Product"
 tags:

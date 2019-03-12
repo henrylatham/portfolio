@@ -1,10 +1,10 @@
 <h1 align="center">
     <img alt="HL 2019" title="Henry Latham 2019" src="/static/media/book-blocks-wide.jpg" width="140"> </br>
-    Lumen
+    Thoughts on Product Strategy
 </h1>
 
 <h4 align="center">
-  Thoughts on Product Strategy, Design & Living Well: <a href="https://hlatham.com" target="_blank">Read More</a>.
+  Thoughts on Product Strategy, Design & Living Well: <a href="https://hlatham.com" target="_blank">Visit Site</a>.
 </h4>
 
 <p align="center">
@@ -33,7 +33,7 @@
 #### Start Development
 
 ```sh
-cd blog
+cd portfolio
 gatsby develop
 ```
 

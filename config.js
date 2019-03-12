@@ -28,7 +28,7 @@ module.exports = {
     portrait: '/portrait.jpg',
     bio: 'Product Strategist | Head of Product at Scribe | Author of Building for Product Success, available Summer 2019',
     contacts: {
-      email: 'henry@scribeapp.co?Subject=Website%20Enquiry',
+      email: 'henry@scribeapp.co?Subject=Free%20Product%20Strategy%20Consultation',
       medium: '@lathamhenry',
       github: 'henrylatham',
       // amazon: 'https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts',

@@ -36,7 +36,7 @@ export default class IndexPage extends React.Component {
 
       <div className={styles['mailForm']}>
         <div className={styles['mailForm__inner_left']}>
-          <h1 className={styles['mailForm__title']}>FREE Secrets to Product Success</h1>
+          <h1 className={styles['mailForm__title']}>Download FREE Chapter</h1>
           <p className={styles['mailForm__body']}>
             Subscribe to my bitesize, weekly newsletter & get the introduction
             to my new book, <i>Building for Product Success</i>, for FREE:

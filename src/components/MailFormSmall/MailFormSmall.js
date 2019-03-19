@@ -36,10 +36,10 @@ export default class IndexPage extends React.Component {
 
       <div className={styles['mailForm']}>
         <div className={styles['mailForm__inner_left']}>
-          <h1 className={styles['mailForm__title']}>FREE Secrets to Product Success</h1>
+          <h1 className={styles['mailForm__title']}>Download FREE Chapter</h1>
           <p className={styles['mailForm__body']}>
             Subscribe to my bitesize, weekly newsletter & get the introduction
-            to my new book, <i>Building for Product Success</i>, for FREE:
+            to my new book, <i>The Great Startup Crash</i>, for FREE:
           </p>
           <form onSubmit={this._handleSubmit} className={styles['mailForm__form']}>
             <input type="text" onChange={this._handleChange} placeholder="Name" name="name" className={styles['mailForm__form__input']} />

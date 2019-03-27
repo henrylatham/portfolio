@@ -130,6 +130,7 @@
     }
     &__inner_right {
       @include margin(1, 1);
+      flex-direction: row;
       width: 35%;
     }
   }

@@ -15,10 +15,16 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/not-found-template.js')
   });
 
-  // Tags list
+  // Blog list
   createPage({
     path: '/blog',
     component: path.resolve('./src/templates/tags-list-template.js')
+  });
+
+  // Tags list
+  createPage({
+    path: '/book',
+    component: path.resolve('./src/templates/book.js')
   });
 
   // Categories list

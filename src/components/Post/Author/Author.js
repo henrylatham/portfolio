@@ -14,8 +14,8 @@ export const PureAuthor = ({ data }) => {
           href="https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts"
           rel="noopener noreferrer"
           target="_blank"
+          //Get 30% off the new book
         >
-          Get 30% off the new book
         </a>
       </p>
     </div>

@@ -259,7 +259,7 @@ And if all those efforts are being expended following a strategy that does not w
 
 A year of wasted effort and you’ve burned through over $200,000 of your company’s very much finite, valuable money, with your runway to attain profitability and/or sustained growth getting shorter by the way.
 
-You can download a chapter of my new book, [The Great Startup Crash](https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts), for free. The information you get there for free is something worth paying for in itself.
+You can download a chapter of my new book, [Why Your Startup is Failing](https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts), for free. The information you get there for free is something worth paying for in itself.
 
 The whole book? With concrete steps to build the foundations for startup success? If that refocuses your efforts on working in a way that actually helps you have impact and progress towards your goals as a business, then that is also surely worth more than the $15 you’ll pay for it, right?
 

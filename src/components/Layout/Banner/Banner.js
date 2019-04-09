@@ -11,7 +11,7 @@ const Banner = () => (
       target="_blank"
     >
       <div className={styles.bookoffer__text}>
-      Download the FREE introduction to my new book: <b><i>The Great Startup Crash</i></b>
+      Download the FREE introduction to my new book: <b><i>Why Your Startup is Failing</i></b>
       </div>
     </a>
   </div>

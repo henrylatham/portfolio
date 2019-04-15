@@ -1,9 +1,11 @@
 import React from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
+//import { graphql, StaticQuery } from 'gatsby'; // add Link when Amazon is live
+import BookCover from './BookCover';
 
 import styles from './MailForm.module.scss';
 
-export default class IndexPage extends React.Component {
+export default class PureMailForm extends React.Component {
   state = {
     name: null,
     email: null,
@@ -32,6 +34,9 @@ export default class IndexPage extends React.Component {
   }
 
   render() {
+    // const { data } = this.props;
+    // const { author } = data.site.siteMetadata;
+
     return (
 
       <div className={styles['mailForm']}>

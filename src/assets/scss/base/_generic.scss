@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
   font-family: $typographic-font-family;
-  color: $typographic-base-font-color;
+  color: $typographic-body-font-color;
   line-height: $typographic-base-line-height;
   font-size: $typographic-base-font-size;
   -ms-text-size-adjust: 100%;
@@ -25,6 +25,7 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
+  color: $typographic-base-font-color;
   font-weight: 600;
 }
 
@@ -126,12 +127,14 @@ p {
 }
 
 blockquote {
+  color: $typographic-base-font-color;
   padding: 0;
   font-style: italic;
   text-align: center;
 }
 
 figure {
+  color: $typographic-base-font-color;
   display: block;
   width: 100%;
   height: auto;

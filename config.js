@@ -30,7 +30,7 @@ module.exports = {
     name: 'Henry Latham',
     photo: '/photo.jpg',
     portrait: '/portrait.jpg',
-    bio: `Product Strategist | Head of Product at Scribe | Author of 'Why Your Startup is Failing', available Summer 2019`,
+    bio: 'Product Strategist | Head of Product at Scribe | Author of "Why Your Startup is Failing", available Summer 2019',
     contacts: {
       email: 'henry@scribeapp.co?Subject=Free%20Product%20Strategy%20Consultation',
       medium: '@lathamhenry',

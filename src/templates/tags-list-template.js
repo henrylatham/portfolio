@@ -66,7 +66,7 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-      limit: 20,
+      limit: 30,
       skip: 0,
       filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
       sort: { order: DESC, fields: [frontmatter___date] }

@@ -1,17 +1,40 @@
 import React from 'react';
-import { withPrefix } from 'gatsby'; // , Link when Amazon is live
+import { graphql, StaticQuery, withPrefix } from 'gatsby'; // , Link when Amazon is live
 import styles from './BookCover.module.scss';
 
-const BookCover = ({ author }) => (
-  <div className={styles['author']}>
-      <img
-        src={withPrefix(author.photo)}
-        className={styles['author__photo']}
-        width="75"
-        height="75"
-        alt={author.name}
-      />
-  </div>
+const PureBookCover = ({ data }) => {
+  const {
+    author,
+  } = data.site.siteMetadata;
+
+
+  return (
+    <div className={styles['author']}>
+        <img
+          src={withPrefix(author.book)}
+          className={styles['author__book']}
+          alt={author.bookName}
+        />
+    </div>
+  );
+};
+
+export const BookCover = (props) => (
+  <StaticQuery
+    query={graphql`
+      query BookCoverQuery {
+        site {
+          siteMetadata {
+            author {
+              book
+              bookName
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => <PureBookCover {...props} data={data}/>}
+  />
 );
 
 export default BookCover;

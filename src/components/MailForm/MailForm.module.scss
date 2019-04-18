@@ -84,19 +84,6 @@
       }
     }
   }
-
-  &__inner_right {
-    display: flex;
-    flex-direction: column;
-    height: 480px;
-    width: 100%;
-    margin: 0 auto;
-
-    background-image: url('../../../static/book-display.png');
-    background-position: center;
-    background-size: cover;
-  }
-
 }
 
 
@@ -111,10 +98,6 @@
       padding: 30px 20px;
       width: 80%;
     }
-    &__inner_right {
-      flex-direction: row;
-      width: 100%;
-    }
   }
 }
 
@@ -125,12 +108,8 @@
 
     &__inner_left {
       @include padding(1, 0, 1, 2);
-      width: 50%;
-      // flex-direction: row;
-    }
-    &__inner_right {
       width: 70%;
-      flex-direction: row;
+      // flex-direction: row;
     }
   }
 }

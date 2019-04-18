@@ -1,6 +1,5 @@
 import React from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
-//import { graphql, StaticQuery } from 'gatsby'; // add Link when Amazon is live
 import BookCover from './BookCover';
 
 import styles from './MailForm.module.scss';
@@ -34,8 +33,7 @@ export default class PureMailForm extends React.Component {
   }
 
   render() {
-    // const { data } = this.props;
-    // const { author } = data.site.siteMetadata;
+    // Only pull a query from a static page or component (within the component)
 
     return (
 
@@ -52,7 +50,7 @@ export default class PureMailForm extends React.Component {
             <input type="submit" className={styles['mailForm__form__submit']} />
           </form>
         </div>
-        <div className={styles['mailForm__inner_right']} />
+        <BookCover />
       </div>
     );
   }

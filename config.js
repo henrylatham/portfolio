@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://hlatham.com',
   title: 'Henry Latham | Product Strategist',
-  subtitle: 'Thoughts on product strategy, design & living well in the startup world.',
+  subtitle: 'Thoughts on product strategy, design & living well in an uncertain world.',
   copyright: '© HL 2019',
   disqusShortname: '',
   postsPerPage: 3,
@@ -37,7 +37,7 @@ module.exports = {
       github: 'henrylatham',
       // amazon: 'https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts',
     },
-    book: '/photo.jpg',
-    bookName: 'Testy test',
+    book: '/book-display.png',
+    bookName: 'Why Your Startup is Failing',
   },
 };

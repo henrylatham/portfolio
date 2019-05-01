@@ -20,7 +20,7 @@ That philosophy is now one I promulgate within the design & product world, both 
 
 + A talk to 400 designers on [how to focus on being more effective](https://www.youtube.com/watch?v=espOkcM94g4) in Berlin, 2018.
 
-+ Download an exclusive free chapter of my book, [*How To Build Successful Products*](https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts), available Summer, 2019.
++ Download an exclusive free chapter of my book, [*How To Build Successful Products*](https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts), available June, 2019.
 
 ---
 

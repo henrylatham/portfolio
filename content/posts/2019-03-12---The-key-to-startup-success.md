@@ -65,7 +65,7 @@ I’ve coached a Google Drive founder, consulted with a few large European start
 
 That process, one of focusing on building three core foundations to product success, has led me to where I am today:
 
-Helping other startups engineer product success through my work as a product strategist and consultant.
+Helping other startups engineer product success through my work as an Agile coach and consultant.
 
 Building my own startup, [Scribe](http://www.scribeapp.co), as a self-sustainable, profitable business to help people suffering from anxiety find calm & clarity in their lives.
 

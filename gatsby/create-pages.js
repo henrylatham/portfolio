@@ -33,6 +33,12 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/categories-list-template.js')
   });
 
+  // Free Consultatioon
+  createPage({
+    path: '/free-consultation',
+    component: path.resolve('./src/templates/free-consultation.js')
+  });
+
   // Posts and pages from markdown
   const result = await graphql(`
     {

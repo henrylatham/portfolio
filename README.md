@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Thoughts on Product Strategy, Design & Living Well: <a href="https://hlatham.com" target="_blank">Visit Site</a>.
+  Thoughts on Product Strategy, Agile & Living Well: <a href="https://hlatham.com" target="_blank">Visit Site</a>.
 </h4>
 
 <p align="center">

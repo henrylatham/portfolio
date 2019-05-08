@@ -18,11 +18,11 @@
   }
 
   &__title {
-    @include line-height(2);
+    @include line-height(1.5);
     @include margin-top(0);
-    @include margin-bottom(0);
+    @include margin-bottom(0.25);
 
-    font-size: $typographic-base-font-size * 2.5;
+    font-size: $typographic-base-font-size * 2;
     font-weight: 600;
   }
 

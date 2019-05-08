@@ -3,7 +3,7 @@ const getContactHref = (name, contact) => {
 
   switch (name) {
     case 'book':
-      href = 'https://mailchi.mp/481d8ad40b87/howtobuildgreatproducts';
+      href = '/book';
       break;
     case 'twitter':
       href = `https://www.twitter.com/${contact}`;

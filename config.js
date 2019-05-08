@@ -22,8 +22,8 @@ module.exports = {
       path: '/book'
     },
     {
-      label: 'About',
-      path: '/pages/about'
+      label: 'Free Consultation',
+      path: '/free-consultation'
     },
   ],
   author: {

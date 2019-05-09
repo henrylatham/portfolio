@@ -2,7 +2,7 @@
 title: Anti-Agile
 date: "2019-04-26T22:40:32.169Z"
 template: "post"
-draft: false
+draft: true
 slug: "/posts/anti-agile-intro"
 category: "Anti-Agile"
 tags:

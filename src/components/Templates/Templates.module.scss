@@ -1,0 +1,25 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.templates {
+  margin: 0 auto;
+
+  &__example {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+
+    &_header {
+      padding-left: 24px;
+    }
+
+    &_img {
+      min-width: 240px;
+    }
+
+    &_btn {
+      text-align: center;
+    }
+  }
+
+}

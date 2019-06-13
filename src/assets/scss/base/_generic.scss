@@ -65,7 +65,7 @@ h5 {
 }
 
 h6 {
-  font-size: $typographic-base-font-size;
+  font-size: $typographic-base-font-size * 0.7;
   @include line-height(1);
   @include margin-top(2.5);
   @include margin-bottom(.5);

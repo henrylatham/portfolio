@@ -39,6 +39,12 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/free-consultation.js')
   });
 
+  // Templates for book
+  createPage({
+    path: '/templates',
+    component: path.resolve('./src/templates/templates.js')
+  });
+
   // Posts and pages from markdown
   const result = await graphql(`
     {

@@ -13,6 +13,7 @@ module.exports = {
     menu: siteConfig.menu,
     author: siteConfig.author,
     clients: siteConfig.clients,
+    templates: siteConfig.templates,
   },
   plugins: [
     {

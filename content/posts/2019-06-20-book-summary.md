@@ -1,6 +1,6 @@
 ---
 title: Why Your Startup is Failing
-date: "2019-04-20T22:40:32.169Z"
+date: "2019-06-20T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/book-summary"

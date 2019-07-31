@@ -1,14 +1,14 @@
 ---
 title: How to Make Sure You’re not Wasting the Next 5-10 Years of Your Professional Life
-date: "2019-05-21T22:40:32.169Z"
+date: "2019-06-21T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/save-yourself-5-10-years-wasted-time"
-category: "Anti-Agile"
+category: "Purpose"
 tags:
   - "Vision"
   - "Purpose"
-  - "Startup"
+  - "Fulfilment"
 description: "You would think that everyone comes into working knowing what they are doing and, more importantly, why. Yet the last global report on job satisfaction, a Gallup poll from 2012, showed that only 13% of employees globally feel engaged with their work, with 24% actually disengaged (i.e. a polite way of saying they really f**ing hate their jobs). "
 ---
 

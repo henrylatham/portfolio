@@ -1,6 +1,6 @@
 ---
 title: Alignment, Focus & Business Success
-date: "2019-07-21T22:40:32.169Z"
+date: "2019-09-21T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/alignment-focus-business-success"

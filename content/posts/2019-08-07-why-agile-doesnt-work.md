@@ -1,6 +1,6 @@
 ---
 title: Why Agile Doesn’t Work
-date: "2019-05-07T22:40:32.169Z"
+date: "2019-08-07T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/why-agile-does-not-work"

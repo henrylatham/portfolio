@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://hlatham.com',
-  title: 'Henry Latham | Product Coach',
+  title: 'Henry Latham | Product Manager',
   subtitle: 'Thoughts on product strategy, Agile & being effective in an uncertain world.',
   copyright: '© HL 2019',
   disqusShortname: '',
@@ -30,7 +30,7 @@ module.exports = {
     name: 'Henry Latham',
     photo: '/photo.jpg',
     portrait: '/portrait.jpg',
-    bio: 'Product Coach | Head of Product at Scribe | Author of "Why Your Startup is Failing", available Aug 2019',
+    bio: 'Product Manager | Head of Product at Scribe | Author of "Why Your Startup is Failing"',
     contacts: {
       email: 'henry@scribeapp.co?Subject=Free%20Product%20Strategy%20Consultation',
       medium: '@lathamhenry',

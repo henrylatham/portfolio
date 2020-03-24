@@ -52,7 +52,24 @@ const Templates = ({ templates }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download resources
+        Download Resource
+      </a>
+    </div>
+
+    <div className={styles['templates__example']}>
+      <h4 className={styles['templates__example_header']}>Team Retrospective</h4>
+      <img
+        src={withPrefix(templates.retrospective)}
+        className={styles['templates__example_img']}
+        alt={templates.retrospectiveAlt}
+      />
+      <a
+        className={styles['templates__example_btn']}
+        href={templates.retrospectiveFiles}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download Resource
       </a>
     </div>
 
@@ -69,7 +86,7 @@ const Templates = ({ templates }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download resources
+        Download Resource
       </a>
     </div>
 

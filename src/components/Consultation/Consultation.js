@@ -4,19 +4,25 @@ import styles from './Consultation.module.scss';
 
 const Consultation = ({ clients }) => (
   <div className={styles['consultation']}>
-    <h1 className={styles['consultation__header']}>Get your free 15-minute consultation</h1>
+    <h1 className={styles['consultation__header']}>
+      Get your free 30-minute consultation
+    </h1>
     <p className={styles['consultation__text']}>
-      Learn how to become smarter, leaner, faster. How to have huge impact with your work.<br></br><br></br>
-      Wage war against efficiency &, instead, focus on what really matters:<br></br><br></br>
-      <b>Being effective & building profitable products.</b><br></br><br></br>
+      Learn how to not just survive, but thrive, as a product leader in
+      uncertain times.
+      <br></br><br></br>
+      Wage war against efficiency &, instead, focus on what really matters:
+      <br></br><br></br>
+      <b>Building effective teams & building high-value products.
+      </b><br></br><br></br>
     </p>
     <a
       className={styles['consultation__button']}
-      href={'https://henrylatham.youcanbook.me'}
+      href={'https://calendly.com/henry_latham/strategy-session'}
       target="_blank"
       rel="noopener noreferrer"
     >
-      Book a free consultation
+      Book free consultation
     </a>
     <div className={styles['consultation__clients']}>
       <h5>Previous clients:</h5>

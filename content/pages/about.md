@@ -26,4 +26,4 @@ That philosophy is now one I promulgate within the design & product world, both 
 
 ## Make your Product a Success
 
-Book a [**FREE CONSULTATION**](mailto:henry@scribeapp.co?Subject=Free%20Consultation) to discuss how to build the right foundations for product success in your company.
+Book a [**FREE CONSULTATION**](mailto:henry@productmastery?Subject=Free%20Consultation) to discuss how to build the right foundations for product success in your company.

@@ -39,6 +39,9 @@ export const query = graphql`
           experiments
           experimentsAlt
           experimentsFiles
+          retrospective
+          retrospectiveAlt
+          retrospectiveFiles
           userTesting
           userTestingAlt
           userTestingFiles

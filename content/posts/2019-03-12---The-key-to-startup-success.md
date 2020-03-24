@@ -265,6 +265,6 @@ The whole book? With concrete steps to build the foundations for startup success
 
 And if you believe that you’re unable to change, that you want to bring radical change to your company but don’t know how, then I have a simple solution for you:
 
-[Message me for a free consultation](mailto:henry@scribeapp.co?Subject=Free%20Consultation). A chat about where your startup is out & how we can rebuild old habits, replacing them with robust foundations for success.
+[Message me for a free consultation](mailto:henry@productmastery.co?Subject=Free%20Consultation). A chat about where your startup is out & how we can rebuild old habits, replacing them with robust foundations for success.
 
 *What would you pay for success?*

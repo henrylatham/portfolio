@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="HL 2019" title="Henry Latham 2019" src="/static/media/book-blocks-wide.jpg" width="140"> </br>
+    <img alt="HL 2019" title="Henry Latham 2020" src="/static/media/book-blocks-wide.jpg" width="140"> </br>
     Thoughts on Product Strategy
 </h1>
 

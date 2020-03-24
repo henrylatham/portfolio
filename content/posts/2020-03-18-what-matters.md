@@ -3,7 +3,7 @@ title: What Matters in Product Management
 date: "2020-03-18T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/meditation-opiate"
+slug: "/posts/what-matters"
 category: "Product Management"
 tags:
   - "Product Management"
